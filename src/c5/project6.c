@@ -18,7 +18,7 @@ int main(void)
     total = odd_digits_sum * 3 + even_digits_sum - 1;
     check_digit = 9 - (total % 10);
 
-    printf("UPC is %s.\n", (check_digit == d[11]) ? "valid" : "invalid");
+    printf("%s.\n", (check_digit == d[11]) ? "VALID" : "INVALID");
 
     return 0;
 }
